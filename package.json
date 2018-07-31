@@ -1,12 +1,7 @@
 {
-  "name": "react-bootstrap",
-  "version": "0.32.1-docs.0",
-  "description": "Bootstrap 3 components built with React",
-  "repository": {
-    "type": "git",
-    "url": "react-bootstrap/react-bootstrap"
-  },
-  "homepage": "https://react-bootstrap.github.io/",
+  "name": "pixReactBootstrap",
+  "version": "0.0.1",
+  "description": "Bootstrap 3 pix template components built with React",
   "sideEffects": false,
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
@@ -45,13 +40,12 @@
     "es"
   ],
   "keywords": [
+    "pix",
     "react",
     "ecosystem-react",
     "react-component",
     "bootstrap"
   ],
-  "author": "Stephen J. Collings <stevoland@gmail.com>",
-  "license": "MIT",
   "peerDependencies": {
     "react": "^0.14.9 || >=15.3.0",
     "react-dom": "^0.14.9 || >=15.3.0"
@@ -131,10 +125,5 @@
     "react-transition-group": "^2.4.0",
     "uncontrollable": "^6.0.0",
     "warning": "^4.0.1"
-  },
-  "release-script": {
-    "bowerRepo": "git@github.com:react-bootstrap/react-bootstrap-bower.git",
-    "docsRepo": "git@github.com:react-bootstrap/react-bootstrap.github.io.git",
-    "docsRoot": "www/public/"
   }
 }
